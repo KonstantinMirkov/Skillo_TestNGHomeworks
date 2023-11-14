@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Web test suite" verbose="1" parallel="methods" thread-count="2">
+    <test name="Parallel Tests">
+        <classes>
+            <class name="HomeworkLection10.MainFirstTests"/>
+            <class name="HomeworkLection10.MainSecondTests"/>
+        </classes>
+    </test>
+</suite>
