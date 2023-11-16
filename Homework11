@@ -1,0 +1,128 @@
+LOGIN:
+Xml paths:
+//*[@id="homeIcon"] - home icon
+//*[@id="nav-link-home"] - home button
+//*[@id="nav-link-login"] - login button
+//*[@id="search-bar"] - search bar
+//*[@id="defaultLoginFormUsername"] - username
+//*[@id="defaultLoginFormPassword"] - password
+//*[@formcontrolname="rememberMe"] - "Remember me" button
+//*[@id="sign-in-button"] - "Sing in" button
+//*[@href="/users/register"] - "Register" button
+
+Full xml paths:
+/html/body/app-root/div[1]/app-header/header/nav/div/a/img - home icon
+/html/body/app-root/div[1]/app-header/header/nav/div/div/ul[1]/li[1]/a - home button
+/html/body/app-root/div[1]/app-header/header/nav/div/div/ul[1]/li[2]/a - login button
+/html/body/app-root/div[1]/app-header/header/nav/div/div/form/input - search bar
+/html/body/app-root/div[2]/app-login/div/div/form/input[1] - username
+/html/body/app-root/div[2]/app-login/div/div/form/input[2] - password
+/html/body/app-root/div[2]/app-login/div/div/form/div/span - "Remember me" button
+/html/body/app-root/div[2]/app-login/div/div/form/button - "Sing in" button
+/html/body/app-root/div[2]/app-login/div/div/form/p[2]/a - "Register" button
+---------------------------------------------------------------------------------------------------------------------------------------
+REGISTER:
+Xml paths:
+//*[@id="homeIcon"] - home icon
+//*[@id="nav-link-home"] - home button
+//*[@id="nav-link-login"] - login button
+//*[@id="search-bar"] - search bar
+//*[@formcontrolname="username"] - username
+//*[@formcontrolname="email"] - email
+//*[@id="defaultRegisterFormPassword"] - password
+//*[@id="defaultRegisterPhonePassword"] - comfirm password
+//*[@id="sign-in-button"] - "Sing in" button
+
+Full xml paths:
+/html/body/app-root/div[1]/app-header/header/nav/div/a/img - home icon
+/html/body/app-root/div[1]/app-header/header/nav/div/div/ul[1]/li[1]/a - home button
+/html/body/app-root/div[1]/app-header/header/nav/div/div/ul[1]/li[2]/a - login button
+/html/body/app-root/div[1]/app-header/header/nav/div/div/form/input - search bar
+/html/body/app-root/div[2]/app-register/div/div/form/div[1]/input - username
+/html/body/app-root/div[2]/app-register/div/div/form/div[2]/input - email
+/html/body/app-root/div[2]/app-register/div/div/form/div[3]/input - password
+/html/body/app-root/div[2]/app-register/div/div/form/div[4]/input - comfirm password
+/html/body/app-root/div[2]/app-register/div/div/form/div[5]/button - "Sing in" button
+---------------------------------------------------------------------------------------------------------------------------------------
+HOME:
+Xml paths:
+//*[@id="homeIcon"] - home icon
+//*[@id="nav-link-home"] - home button
+//*[@id="nav-link-profile"] - profile button
+//*[@id="nav-link-new-post"] - new post button
+//*[@id="search-bar"] - search bar
+//*[@id="navbarColor01"]/ul[2]/li/a/i - sign out button
+//*[contains(text(), "Follow")]- follow button
+//*[@class="far fa-heart fa-2x"] - like button
+//*[@class="ml-4 far fa-thumbs-down fa-2x"] - dislike button
+
+Full xml paths:
+/html/body/app-root/div[1]/app-header/header/nav/div/a/img - home icon
+/html/body/app-root/div[1]/app-header/header/nav/div/div/ul[1]/li[1]/a - home button
+/html/body/app-root/div[1]/app-header/header/nav/div/div/ul[1]/li[2]/a - profile button
+/html/body/app-root/div[1]/app-header/header/nav/div/div/ul[1]/li[3]/a - new post button
+/html/body/app-root/div[1]/app-header/header/nav/div/div/form/input - search bar
+/html/body/app-root/div[1]/app-header/header/nav/div/div/ul[2]/li/a/i - sign out button
+/html/body/app-root/div[2]/app-all-posts/div/div/div[1]/app-post-detail/div/app-small-user-profile/div/div[2]/button - follow button
+/html/body/app-root/div[2]/app-all-posts/div/div/div[1]/app-post-detail/div/div[2]/div/div[1]/i[1] - like button
+/html/body/app-root/div[2]/app-all-posts/div/div/div[1]/app-post-detail/div/div[2]/div/div[1]/i[2] - dislike button
+---------------------------------------------------------------------------------------------------------------------------------------
+PROFILE:
+Xml paths:
+//*[@id="homeIcon"] - home icon
+//*[@id="nav-link-home"] - home button
+//*[@id="nav-link-profile"] - profile button
+//*[@id="nav-link-new-post"] - new post button
+//*[@id="search-bar"] - search bar
+//*[@id="navbarColor01"]/ul[2]/li/a/i - sign out button
+//*[@class="edit-profile-pic ng-star-inserted"] - edit profile picture
+//*[@class="fas fa-user-edit ng-star-inserted"] - edit username
+//*[@id="followers"] - followers
+//*[@id="following"] - following
+//*[@class="btn-all btn btn-primary active"] - "All" button
+//*[@class="btn-public btn btn-primary"] - "Public" button
+//*[@class="btn-private btn btn-primary"] - "Private" button
+//*[@class="far fa-plus-square fa-3x"] - new post icon
+
+Full xml paths:
+/html/body/app-root/div[1]/app-header/header/nav/div/a/img - home icon
+/html/body/app-root/div[1]/app-header/header/nav/div/div/ul[1]/li[1]/a - home button
+/html/body/app-root/div[1]/app-header/header/nav/div/div/ul[1]/li[2]/a - profile button
+/html/body/app-root/div[1]/app-header/header/nav/div/div/ul[1]/li[3]/a - new post button
+/html/body/app-root/div[1]/app-header/header/nav/div/div/form/input - search bar
+/html/body/app-root/div[1]/app-header/header/nav/div/div/ul[2]/li/a/i - sign out button
+/html/body/app-root/div[2]/app-profile/div/div[1]/app-profile-section/div/div/div[1]/div[2] - edit profile picture
+/html/body/app-root/div[2]/app-profile/div/div[1]/app-profile-section/div/div/div[2]/div/div[1]/i - edit username
+/html/body/app-root/div[2]/app-profile/div/div[1]/app-profile-section/div/div/div[2]/div/div[3]/ul/li[2] - followers
+/html/body/app-root/div[2]/app-profile/div/div[1]/app-profile-section/div/div/div[2]/div/div[3]/ul/li[3] - following
+/html/body/app-root/div[2]/app-profile/div/div[2]/app-profile-posts-section/div/div[1]/div/label[1] - "All" button
+/html/body/app-root/div[2]/app-profile/div/div[2]/app-profile-posts-section/div/div[1]/div/label[2] - "Public" button
+/html/body/app-root/div[2]/app-profile/div/div[2]/app-profile-posts-section/div/div[1]/div/label[3] - "Private" button
+/html/body/app-root/div[2]/app-profile/div/div[2]/app-profile-posts-section/div/div[2]/div/app-post-list/div[2]/div/a/i - new post icon
+---------------------------------------------------------------------------------------------------------------------------------------
+NEW POSTS:
+Xml paths:
+//*[@id="homeIcon"] - home icon
+//*[@id="nav-link-home"] - home button
+//*[@id="nav-link-profile"] - profile button
+//*[@id="nav-link-new-post"] - new post button
+//*[@id="search-bar"] - search bar
+//*[@id="navbarColor01"]/ul[2]/li/a/i - sign out button
+//*[@class="uploadfilecontainer"] - upload file container
+//*[@id="choose-file"] - "Browse" button
+//*[@formcontrolname="caption"] - post caption
+//*[@class="post-status-label custom-control-label active"] - public to private switch button
+//*[@id="create-post"] - submit button
+
+Full xml paths:
+/html/body/app-root/div[1]/app-header/header/nav/div/a/img - home icon
+/html/body/app-root/div[1]/app-header/header/nav/div/div/ul[1]/li[1]/a - home button
+/html/body/app-root/div[1]/app-header/header/nav/div/div/ul[1]/li[2]/a - profile button
+/html/body/app-root/div[1]/app-header/header/nav/div/div/ul[1]/li[3]/a - new post button
+/html/body/app-root/div[1]/app-header/header/nav/div/div/form/input - search bar
+/html/body/app-root/div[1]/app-header/header/nav/div/div/ul[2]/li/a/i - sign out button
+/html/body/app-root/div[2]/app-create-post/div/div/div/form/div[1]/div[1]/div - upload file container
+/html/body/app-root/div[2]/app-create-post/div/div/div/form/div[1]/div[2]/span/button - "Browse" button
+/html/body/app-root/div[2]/app-create-post/div/div/div/form/div[1]/div[3]/input - post caption
+/html/body/app-root/div[2]/app-create-post/div/div/div/form/div[1]/div[3]/span/label[2] - public to private switch button
+/html/body/app-root/div[2]/app-create-post/div/div/div/form/div[2]/button - submit button
