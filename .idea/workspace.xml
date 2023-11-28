@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5b34e213-db6e-466d-8b9a-73cb61d3e371" name="Changes" comment="Homework 10">
-      <change afterPath="$PROJECT_DIR$/Homework11" afterDir="false" />
+    <list default="true" id="5b34e213-db6e-466d-8b9a-73cb61d3e371" name="Changes" comment="Homework 11">
+      <change afterPath="$PROJECT_DIR$/src/test/java/HomeworkLection14/LogoutTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,27 +48,91 @@
       <recent name="E:\SKILLO\TestNG\src\test\java\HomeworkLection10" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.E:/SKILLO/TestNG/target/testng.xml">
-    <configuration name="E:/SKILLO/TestNG/target/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/target/testng.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
+  <component name="RunManager" selected="TestNG.LogoutTests.logoutFromLoggedOutState">
+    <configuration name="LogoutTests.logoutFromLoggedInStateFromHome" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestNG" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="HomeworkLection14.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="HomeworkLection14" />
+      <option name="MAIN_CLASS_NAME" value="HomeworkLection14.LogoutTests" />
+      <option name="METHOD_NAME" value="logoutFromLoggedInStateFromHome" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainFirstTests" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="LogoutTests.logoutFromLoggedInStateFromNewPost" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TestNG" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="HomeworkLection10.*" />
+          <option name="PATTERN" value="HomeworkLection14.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="HomeworkLection10" />
-      <option name="MAIN_CLASS_NAME" value="HomeworkLection10.MainFirstTests" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PACKAGE_NAME" value="HomeworkLection14" />
+      <option name="MAIN_CLASS_NAME" value="HomeworkLection14.LogoutTests" />
+      <option name="METHOD_NAME" value="logoutFromLoggedInStateFromNewPost" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LogoutTests.logoutFromLoggedInStateFromProfile" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestNG" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="HomeworkLection14.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="HomeworkLection14" />
+      <option name="MAIN_CLASS_NAME" value="HomeworkLection14.LogoutTests" />
+      <option name="METHOD_NAME" value="logoutFromLoggedInStateFromProfile" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LogoutTests.logoutFromLoggedOutState" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestNG" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="HomeworkLection14.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="HomeworkLection14" />
+      <option name="MAIN_CLASS_NAME" value="HomeworkLection14.LogoutTests" />
+      <option name="METHOD_NAME" value="logoutFromLoggedOutState" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LogoutTests.testLogin" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TestNG" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="HomeworkLection14.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="HomeworkLection14" />
+      <option name="MAIN_CLASS_NAME" value="HomeworkLection14.LogoutTests" />
+      <option name="METHOD_NAME" value="testLogin" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -76,8 +141,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.E:/SKILLO/TestNG/target/testng.xml" />
-        <item itemvalue="TestNG.MainFirstTests" />
+        <item itemvalue="TestNG.LogoutTests.logoutFromLoggedOutState" />
+        <item itemvalue="TestNG.LogoutTests.logoutFromLoggedInStateFromNewPost" />
+        <item itemvalue="TestNG.LogoutTests.logoutFromLoggedInStateFromProfile" />
+        <item itemvalue="TestNG.LogoutTests.logoutFromLoggedInStateFromHome" />
+        <item itemvalue="TestNG.LogoutTests.testLogin" />
       </list>
     </recent_temporary>
   </component>
@@ -111,7 +179,14 @@
       <option name="project" value="LOCAL" />
       <updated>1699965377184</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Homework 11">
+      <created>1700149850228</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1700149850228</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -127,6 +202,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Homework 10" />
-    <option name="LAST_COMMIT_MESSAGE" value="Homework 10" />
+    <MESSAGE value="Homework 11" />
+    <option name="LAST_COMMIT_MESSAGE" value="Homework 11" />
   </component>
 </project>
