@@ -4,10 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5b34e213-db6e-466d-8b9a-73cb61d3e371" name="Changes" comment="Homework 11">
-      <change afterPath="$PROJECT_DIR$/src/test/java/HomeworkLection14/LogoutTests.java" afterDir="false" />
+    <list default="true" id="5b34e213-db6e-466d-8b9a-73cb61d3e371" name="Changes" comment="Homework 14">
+      <change afterPath="$PROJECT_DIR$/src/main/java/HomeworkLection14/Header.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/HomeworkLection14/HomePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/HomeworkLection14/LoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/HomeworkLection14/NewPostPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/HomeworkLection14/ProfilePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/HomeworkLection15/Tests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/HomeworkLection14/LogoutTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/HomeworkLection14/LogoutTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -186,7 +191,14 @@
       <option name="project" value="LOCAL" />
       <updated>1700149850228</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Homework 14">
+      <created>1701168988331</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1701168988332</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -203,6 +215,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Homework 10" />
     <MESSAGE value="Homework 11" />
-    <option name="LAST_COMMIT_MESSAGE" value="Homework 11" />
+    <MESSAGE value="Homework 14" />
+    <option name="LAST_COMMIT_MESSAGE" value="Homework 14" />
   </component>
 </project>
