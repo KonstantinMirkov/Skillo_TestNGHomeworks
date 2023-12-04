@@ -133,7 +133,6 @@ public class LogoutTests {
 
     @Test
     public void logoutFromLoggedOutState() {
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
         // Open iskillo Home page
         HomePage homePage = new HomePage(driver);
         homePage.navigateToHome();
