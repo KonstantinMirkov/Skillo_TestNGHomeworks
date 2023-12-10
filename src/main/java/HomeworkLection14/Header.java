@@ -17,7 +17,7 @@ public class Header {
     private WebElement newPostLink;
     @FindBy(id = "nav-link-login")
     private WebElement loginLink;
-    @FindBy(xpath = "//*[@id=\"navbarColor01\"]/ul[2]/li/a/i")
+    @FindBy(xpath = "//*[@class=\"fas fa-sign-out-alt fa-lg\"]")
     private WebElement logoutLink;
 
     public Header(WebDriver driver) {
@@ -42,7 +42,7 @@ public class Header {
     }
 
     public void clickLogout() {
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(90));
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
         wait.until(ExpectedConditions.elementToBeClickable(logoutLink));
         logoutLink.click();
     }

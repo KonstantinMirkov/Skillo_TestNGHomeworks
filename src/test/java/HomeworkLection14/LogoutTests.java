@@ -1,17 +1,13 @@
 package HomeworkLection14;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
+import org.openqa.selenium.By;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.By;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.*;
-
-import java.time.Duration;
 
 public class LogoutTests {
     private WebDriver driver;
@@ -68,7 +64,6 @@ public class LogoutTests {
 
         // Click on Sign in
         loginPage.clickSignIn();
-
     }
 
     @Test(dataProvider = "getUsers")
@@ -148,7 +143,7 @@ public class LogoutTests {
 
         // Navigate to the logout button and throw exception when not found
         try {
-            WebElement logoutButton = driver.findElement(By.xpath("//*[@id=\"navbarColor01\"]/ul[2]/li/a/i"));
+            WebElement logoutButton = driver.findElement(By.xpath("//*[@class=\"fas fa-sign-out-alt fa-lg\"]"));
             Assert.fail("Logout button should not be present.");
         } catch (NoSuchElementException e) {
             System.out.println("There is no logout button.");
